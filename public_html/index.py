@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('fachada.html')
 
 @app.route('/')
 def destacado():
-    return render_template('destacado.html')
+    return render_template('fachada.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
