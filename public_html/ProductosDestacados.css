@@ -3,7 +3,7 @@ h1{
     font-family: "Lucida Console", "Courier New", monospace;
 }
 body{
-    background : #e8e8e8;
+    background : #52B2BF;
     font-family: Arial, Helvetica, sans-serif; 
    
 }
@@ -33,5 +33,5 @@ menu li{
     text-align: center;
 }
 menu li a:hover{
-    background: #ef8354;
+    background: #004D40;
 }

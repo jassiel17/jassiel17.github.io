@@ -19,5 +19,8 @@ menu li{
     text-align: center;
 }
 menu li a:hover{
-    background: #ef8354;
+    background: #004D40;
+}
+body{
+     background: #52B2BF;
 }
