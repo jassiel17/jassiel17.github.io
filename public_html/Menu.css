@@ -1,7 +1,4 @@
-h1{
-    color: #55667a;
-    font-family: 'Roboto', arial;
-}
+
 body{
      background: #52B2BF;
 }
@@ -72,6 +69,14 @@ menu li a:hover{
 .buscar input:focus{
     width: 240PX
 }
+.banner_img img{
+    padding: 5px 5px;
+    display: center;
+}
+
+
+
+
 
     
 
