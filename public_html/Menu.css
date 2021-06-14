@@ -1,19 +1,20 @@
 
 body{
-     background: #52B2BF;
+     background: #93dcec;
+     margin: 0 3em 0 3em;
+     margin-left: 0;
+     margin-right: 0;
 }
-h3{
-    color:rgb(0, 0, 0)
-}
+
 ul{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
     list-style: none;
     padding: 0;
     background: rgb(0, 0, 0);
-    width: 90%;
+    width: 100%;
     max-width: 100000px;
-    margin:auto
-
+    margin:auto;
 }
 menu li a{
     text-decoration: none;
@@ -24,14 +25,17 @@ menu li a{
 menu li{
     display: inline-block;
     text-align: center;
+    word-spacing: 0em;
 }
 menu li a:hover{
-    background: #004D40;
+    background: #0E6251;
+    
 }
 
 .buscar{
     position: absolute;
     padding: 5px;
+    top: 51px;
 }
 .buscar input{
     width: 0px;
@@ -44,7 +48,7 @@ menu li a:hover{
     border-radius: 30px;
     transition: all 0.6s ease;
    position: relative;
-  right: -1000px;
+  right: -900px;
   top: 2px
 }
 .btn{
@@ -60,7 +64,7 @@ menu li a:hover{
     font-size: 20px;
     border-radius: 50%;
     cursor: pointer;  
-  right: -1000px;
+  right: -900px;
 }
 .buscar:hover input{
     width: 240px;
@@ -73,6 +77,7 @@ menu li a:hover{
     padding: 5px 5px;
     display: center;
 }
+
 
 
 
